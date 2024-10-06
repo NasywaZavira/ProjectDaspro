@@ -2,7 +2,7 @@ program KalkulatorHukumOhm;
 uses crt;
 
 var
-    choice: char;
+    pilihan: char;
     V, I, R: real;
 
 label 1,2,3,4;
@@ -18,7 +18,7 @@ begin
     writeln('2. Hambatan (R)');
     writeln('3. Arus (I)');
     writeln('=========================================');
-    write('Masukkan pilihan (1/2/3): '); readln(choice);
+    write('Masukkan pilihan (1/2/3): '); readln(pilihan);
     
     case choice of
         '1': begin
